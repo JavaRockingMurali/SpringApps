@@ -29,7 +29,7 @@ public class shop_Products implements Serializable {
 	public void setPid(int pid) {
 		this.pid = pid;
 	}
-	@Column(name="PRO_Name",nullable=false,unique=true)
+	@Column(name="PRO_Name")
 	public String getPname() {
 		return pname;
 	}
