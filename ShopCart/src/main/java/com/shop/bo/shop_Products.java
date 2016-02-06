@@ -22,7 +22,7 @@ public class shop_Products implements Serializable {
 	private String pbrand;
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	@Column(name="PRO_Id")
+	@Column(name="PRO_Id",nullable=false,unique=true)
 	public int getPid() {
 		return pid;
 	}
